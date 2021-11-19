@@ -4,6 +4,51 @@
   min-width: 320px;
   max-width: 1280px;
   font-family: "MuseoSansCyrl", sans-serif;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.social__headline {
+  margin: 0;
+  font-size: 15px;
+}
+
+.social__to-action {
+  margin: 0;
+  font-size: 40px;
+}
+
+.social__list {
+  display: flex;
+  list-style: none;
+}
+
+.social__list-item {
+  margin: 0 10px 0 0;
+}
+
+.social__list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background: #f9f9f9;
+  border-radius: 13px;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 10px -3px rgba(#000000, 0.2);
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+
+  &:hover path,
+  &:focus path {
+    fill: #5992e8;
+  }
 }
 
 @media (max-width: 1280px) { // **
