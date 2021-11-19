@@ -17,15 +17,22 @@
 }
 
 @font-face {
-  src: url("../fonts/name-regular.woff2") format("woff2");
-  font-family: "Name";
-  font-weight: 400;
+  src: url("../fonts/museosanscyrl-900.woff2") format("woff2"), url("../fonts/museosanscyrl-900.woff") format("woff");
+  font-family: "MuseoSansCyrl";
+  font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  src: url("../fonts/name-bold.woff2") format("woff2");
-  font-family: "Name";
+  src: url("../fonts/museosanscyrl-500.woff2") format("woff2"), url("../fonts/museosanscyrl-500.woff") format("woff");
+  font-family: "MuseoSansCyrl";
   font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("../fonts/museosanscyrl-500.woff2") format("woff2"), url("../fonts/museosanscyrl-500.woff") format("woff");
+  font-family: "MuseoSansCyrl";
+  font-weight: 500;
   font-style: normal;
 }
