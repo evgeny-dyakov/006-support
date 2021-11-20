@@ -7,8 +7,9 @@
 }
 
 .header__wrapper {
+  margin: 0 auto;
   padding: 40px 0 46px;
-  width: 100%;
+  max-width: 1200px;
   background-color: #93bbea;
   background-image: url("../img/airplanes.png"), url("../img/hand.png");
   background-repeat: no-repeat, no-repeat;
@@ -70,15 +71,6 @@
   svg {
     margin: 0 8px 0 0;
   }
-
-  // &:hover,
-  // &:focus {
-  //   box-shadow: 0 0 10px -3px rgba(#000000, 0.2);
-  // }
-
-  // &:active {
-  //   box-shadow: none;
-  // }
 
   &:hover,
   &:focus {

@@ -50,8 +50,9 @@ body {
 }
 
 .header__wrapper {
+  margin: 0 auto;
   padding: 40px 0 46px;
-  width: 100%;
+  max-width: 1200px;
   background-color: #93bbea;
   background-image: url("../img/airplanes.png"), url("../img/hand.png");
   background-repeat: no-repeat, no-repeat;
