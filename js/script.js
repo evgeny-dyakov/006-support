@@ -1,10 +1,10 @@
 $(document).ready(function() {
   $('.questions__slider').slick({
+    arrows: true,
     infinite: false,
     slidesToShow: 4,
     slidesToScroll: 1,
     variableWidth: true,
-    waitForAnimate: false,
     responsive: [
       {
         breakpoint: 1280,
