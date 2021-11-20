@@ -128,6 +128,8 @@ body {
 
 .header__menu-link:hover, .header__menu-link:focus {
   color: #36ba5f;
+  -webkit-box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.2);
 }
 
 .header__menu-link:hover path,
@@ -137,6 +139,8 @@ body {
 
 .header__menu-link:active {
   color: #1a1a1a;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .header__menu-link:active path {
