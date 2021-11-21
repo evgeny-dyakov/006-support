@@ -402,7 +402,7 @@ body {
   text-decoration: none;
   border-radius: 16px;
   outline: none;
-  background-color: rgba(89, 146, 232, 0.4);
+  background-color: #93bbea;
   overflow: hidden;
 }
 
@@ -411,11 +411,11 @@ body {
 }
 
 .questions__slide:hover, .questions__slide:focus {
-  background-color: rgba(89, 146, 232, 0.3);
+  background-color: rgba(147, 187, 234, 0.9);
 }
 
 .questions__slide:active {
-  background-color: rgba(89, 146, 232, 0.4);
+  background-color: #93bbea;
 }
 
 .questions__slide--bg {
@@ -442,7 +442,7 @@ body {
   font-size: 15px;
   line-height: 20px;
   font-weight: 500;
-  color: #949494;
+  color: #ffffff;
 }
 
 .questions__img {
