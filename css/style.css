@@ -371,7 +371,7 @@ body {
 }
 
 .questions__headline {
-  margin: 0 0 32px 0;
+  margin: 0 0 2px 0;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -383,6 +383,7 @@ body {
 }
 
 .slick-list {
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -390,6 +391,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .questions__slide {
@@ -402,16 +404,20 @@ body {
   text-decoration: none;
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  overflow: hidden;
 }
 
 .questions__slide:last-child {
   margin: 0;
 }
 
-.questions__slide--with-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.questions__slide--bg {
+  background: url("../img/bag.png") no-repeat right 16px center;
+}
+
+.questions__slide--bg .questions__question,
+.questions__slide--bg .questions__answer {
+  max-width: 140px;
 }
 
 .questions__question {

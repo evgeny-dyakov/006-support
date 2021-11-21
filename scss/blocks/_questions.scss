@@ -7,7 +7,7 @@
 }
 
 .questions__headline {
-  margin: 0 0 32px 0;
+  margin: 0 0 2px 0;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -19,11 +19,13 @@
 }
 
 .slick-list {
+  padding: 30px 0;
   overflow: hidden;
 }
 
 .slick-track {
   display: flex;
+  position: relative;
 }
 
 .questions__slide {
@@ -35,13 +37,19 @@
   border-radius: 16px;
   text-decoration: none;
   box-shadow: 0 0 30px 0 rgba(#000000, 0.05);
+  overflow: hidden;
 
   &:last-child {
     margin: 0;
   }
 
-  &--with-img {
-    display: flex;
+  &--bg {
+    background: url("../img/bag.png") no-repeat right 16px center;
+
+    .questions__question,
+    .questions__answer {
+      max-width: 140px;
+    }
   }
 }
 
