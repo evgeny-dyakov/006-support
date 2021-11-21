@@ -7,7 +7,7 @@
 }
 
 .questions__headline {
-  margin: 0 0 2px 0;
+  margin: 0 0 32px 0;
   font-size: 40px;
   font-weight: 700;
   color: #1a1a1a;
@@ -20,7 +20,6 @@
 }
 
 .slick-list {
-  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -34,10 +33,10 @@
   padding: 16px;
   width: 282px;
   height: 160px;
-  background: #ffffff;
-  border-radius: 16px;
   text-decoration: none;
-  box-shadow: 0 0 30px 0 rgba(#000000, 0.05);
+  border-radius: 16px;
+  outline: none;
+  background-color: rgba(#5992e8, 0.4);
   overflow: hidden;
 
   &:last-child {
@@ -46,11 +45,17 @@
 
   &:hover,
   &:focus {
-    box-shadow: 0 0 15px 0 rgba(#000000, 0.15);
+    background-color: rgba(#5992e8, 0.3);
+  }
+
+  &:active {
+    background-color: rgba(#5992e8, 0.4);
   }
 
   &--bg {
-    background: url("../img/bag.png") no-repeat right 16px center;
+    background-image: url("../img/bag.png");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
 
     .questions__question,
     .questions__answer {
@@ -124,7 +129,6 @@
 
   &:hover,
   &:focus {
-    // outline: none;
     box-shadow: 0 1px 7px 0 rgba(#000000, 0.09);
   }
 
@@ -135,7 +139,7 @@
 
 .slick-dots {
   position: absolute;
-  bottom: -10px;
+  bottom: -20px;
   left: 50%;
   z-index: 2;
   display: flex;
@@ -144,7 +148,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  transform: translateX(-50%);
+  transform: translateX(-45%);
 }
 
 .slick-dots li {
