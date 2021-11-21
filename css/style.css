@@ -651,6 +651,21 @@ body {
   padding: 20px 0 20px 24px;
   text-decoration: none;
   border-radius: 16px;
+  background-image: url("../img/arrow-right-gray.svg");
+  background-repeat: no-repeat;
+  background-position: right 25px center;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+}
+
+.reference__link:hover, .reference__link:focus {
+  background-image: url("../img/arrow-right.svg");
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.reference__link:active {
+  background-image: url("../img/arrow-right-gray.svg");
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
 }
