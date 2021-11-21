@@ -629,13 +629,56 @@ body {
 
 .reference {
   margin: 0 auto;
-  padding: 38px 40px;
+  padding: 14px 40px 38px 40px;
   min-width: 320px;
   max-width: 1280px;
   font-family: "MuseoSansCyrl", sans-serif;
 }
 
+.reference__list {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 996px;
+  list-style: none;
+}
+
+.reference__item {
+  margin: 0 0 12px 0;
+}
+
+.reference__link {
+  display: block;
+  padding: 20px 0 20px 24px;
+  text-decoration: none;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+}
+
+.reference__link--desc .reference__theme {
+  margin: 0 0 4px 0;
+}
+
 .reference__headline {
+  margin: 0 0 30px 0;
   font-size: 40px;
   font-weight: 700;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.reference__theme {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.reference__description {
+  margin: 0;
+  max-width: 380px;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #949494;
 }
