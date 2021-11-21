@@ -21,14 +21,14 @@ $(document).ready(function() {
       {
         breakpoint: 628,
         settings: {
-          slidesToShow: 1,
-          dots: true
+          slidesToShow: 1
         }
       },
       {
         breakpoint: 440,
         settings: {
           slidesToShow: 1,
+          dots: true,
           arrows: false
         }
       }
