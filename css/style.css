@@ -708,13 +708,13 @@ body {
 
 @media (max-width: 1280px) {
   .reference {
-    padding: 33px 30px 58px 30px;
+    padding: 33px 30px 48px 30px;
   }
 }
 
 @media (max-width: 780px) {
   .reference {
-    padding: 23px 20px 48px 20px;
+    padding: 23px 20px 38px 20px;
   }
 }
 
