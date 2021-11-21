@@ -412,6 +412,11 @@ body {
   margin: 0;
 }
 
+.questions__slide:hover, .questions__slide:focus {
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+
 .questions__slide--bg {
   background: url("../img/bag.png") no-repeat right 16px center;
 }

@@ -44,6 +44,11 @@
     margin: 0;
   }
 
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 15px 0 rgba(#000000, 0.15);
+  }
+
   &--bg {
     background: url("../img/bag.png") no-repeat right 16px center;
 
