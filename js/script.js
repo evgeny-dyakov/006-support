@@ -22,8 +22,15 @@ $(document).ready(function() {
         breakpoint: 628,
         settings: {
           slidesToShow: 1,
-          arrows: false,
           dots: true
+        }
+      },
+      {
+        breakpoint: 440,
+        settings: {
+          slidesToShow: 1,
+          dots: true,
+          arrows: false
         }
       }
     ]
