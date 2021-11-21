@@ -11,12 +11,14 @@ $(document).ready(function() {
         settings: {
           slidesToShow: 3
         }
-      }, {
+      },
+      {
         breakpoint: 955,
         settings: {
           slidesToShow: 2
         }
-      }, {
+      },
+      {
         breakpoint: 628,
         settings: {
           slidesToShow: 1,
