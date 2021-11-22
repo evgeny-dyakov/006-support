@@ -146,8 +146,9 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 377px) {
   .answer__chat-btn {
+    width: 100%;
     min-width: auto;
   }
 }
