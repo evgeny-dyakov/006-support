@@ -1,0 +1,130 @@
+.answer {
+  margin: 0 auto;
+  padding: 19px 40px 80px 40px;
+  min-width: 320px;
+  max-width: 1280px;
+  font-family: "MuseoSansCyrl", sans-serif;
+}
+
+.answer__headline-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px 0;
+}
+
+.answer__headline {
+  margin: 0 9px 0 0;
+  font-size: 24px;
+  font-weight: 900;
+  color: #1a1a1a;
+}
+
+.answer__share-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 33px;
+  height: 35px;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    path {
+      fill: #5992e8;
+    }
+  }
+
+  &:active {
+    path {
+      fill: #36ba5f;
+    }
+  }
+}
+
+.answer__text {
+  margin: 0;
+  max-width: 690px;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #1a1a1a;
+
+  &:last-of-type {
+    margin: 0 0 39px 0;
+  }
+}
+
+.answer__not-solved {
+  display: block;
+  margin: 0 0 16px 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.answer__btn-wrapper {
+  display: flex;
+
+  button:not(:last-child) {
+    margin: 0 8px 0 0;
+  }
+}
+
+.answer__chat-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  min-width: 224px;
+  font-family: "MuseoSansCyrl", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #36ba5f;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: #5992e8;
+    box-shadow: 0 0 10px -3px rgba(#000000, 0.2);
+  }
+
+  &:active {
+    background: #36ba5f;
+    box-shadow: none;
+  }
+
+  svg {
+    margin: 0 8px 0 0;
+  }
+}
+
+.answer__connection-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  background: #f9f9f9;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 10px -3px rgba(#000000, 0.2);
+    path,
+    path {
+    fill: #5992e8;
+    }
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
